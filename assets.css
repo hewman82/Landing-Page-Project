@@ -1,0 +1,19 @@
+/*universal selector sets font for entire page*/
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+/*element selector sets styles for specific header element*/
+header {
+    width: 100%;
+    height: 100px;
+    background-color:antiquewhite;
+    text-align: center;
+    /*sets text color*/
+    color:blueviolet;
+    /*fixes header position to top of page*/
+    position: fixed;
+    top: 0;
+    /*sets border width and color*/
+    border: 5px solid lightblue;
+
+}
