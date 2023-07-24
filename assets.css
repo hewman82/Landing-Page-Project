@@ -3,17 +3,77 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 /*element selector sets styles for specific header element*/
+
 header {
-    width: 100%;
-    height: 100px;
+    width: 97.4%;
+    height: 50px;
     background-color:antiquewhite;
-    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    
     /*sets text color*/
     color:blueviolet;
     /*fixes header position to top of page*/
     position: fixed;
-    top: 0;
     /*sets border width and color*/
     border: 5px solid lightblue;
+    padding: 5px;
+}
+
+#github {
+  color: black;
+  margin: 5px;
+}
+#portfolio {
+  color: black;
+  margin: 5px;
+}
+#contact {
+  color: black;
+  margin: 5px;
+}
+.contact {
+  color: black;
+  margin: 5px;
+  margin-right: 15px;
 
 }
+.buffer {
+  height: 85px;
+}
+.image{
+  height: 300px;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+}
+img {
+  border: 5px solid black;
+}
+.caption{
+  height: 50px;
+  
+
+}
+#caption-text{
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: center;
+  color: purple;
+}
+#contact-form{
+  background-color: pink;
+  height: 525px;
+  margin: 50px;
+}
+#form-heading{
+}
+#form-text{
+  margin: 20px;
+}
+
+
+
