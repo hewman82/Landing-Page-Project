@@ -66,6 +66,7 @@ img {
 }
 #contact-form{
   background-color: pink;
+  border: 5px solid grey;
   height: 525px;
   margin: 50px;
 }
